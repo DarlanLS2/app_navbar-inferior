@@ -16,44 +16,34 @@ export default function Home() {
             <Text style={styles.item__musicCreator}>Gojira</Text>
           </TouchableOpacity>
           <TouchableOpacity style={styles.main__item}>
-            <Image style={styles.item__img}source={require('../assets/magma.jpeg')}></Image>
-            <Text style={styles.item__musicName}>Magma</Text>
-            <Text style={styles.item__musicCreator}>Gojira</Text>
+            <Image style={styles.item__img}source={require('../assets/lady.jpeg')}></Image>
+            <Text style={styles.item__musicName}>Lady love</Text>
+            <Text style={styles.item__musicCreator}>Oden & Fatzo</Text>
           </TouchableOpacity>
           <TouchableOpacity style={styles.main__item}>
-            <Image style={styles.item__img}source={require('../assets/magma.jpeg')}></Image>
-            <Text style={styles.item__musicName}>Magma</Text>
-            <Text style={styles.item__musicCreator}>Gojira</Text>
+            <Image style={styles.item__img}source={require('../assets/devil.jpeg')}></Image>
+            <Text style={styles.item__musicName}>Devil's work</Text>
+            <Text style={styles.item__musicCreator}>Freddie Dredd</Text>
           </TouchableOpacity>
           <TouchableOpacity style={styles.main__item}>
-            <Image style={styles.item__img}source={require('../assets/magma.jpeg')}></Image>
-            <Text style={styles.item__musicName}>Magma</Text>
-            <Text style={styles.item__musicCreator}>Gojira</Text>
+            <Image style={styles.item__img}source={require('../assets/hell.jpeg')}></Image>
+            <Text style={styles.item__musicName}>Hell N blck</Text>
+            <Text style={styles.item__musicCreator}>Bakar</Text>
           </TouchableOpacity>
           <TouchableOpacity style={styles.main__item}>
-            <Image style={styles.item__img}source={require('../assets/magma.jpeg')}></Image>
-            <Text style={styles.item__musicName}>Magma</Text>
-            <Text style={styles.item__musicCreator}>Gojira</Text>
+            <Image style={styles.item__img}source={require('../assets/uuuu.jpeg')}></Image>
+            <Text style={styles.item__musicName}>uuuu</Text>
+            <Text style={styles.item__musicCreator}>Steve Lacy</Text>
           </TouchableOpacity>
           <TouchableOpacity style={styles.main__item}>
-            <Image style={styles.item__img}source={require('../assets/magma.jpeg')}></Image>
-            <Text style={styles.item__musicName}>Magma</Text>
-            <Text style={styles.item__musicCreator}>Gojira</Text>
+            <Image style={styles.item__img}source={require('../assets/hail.jpeg')}></Image>
+            <Text style={styles.item__musicName}>Hail to the king</Text>
+            <Text style={styles.item__musicCreator}>Avenged Sevenfold</Text>
           </TouchableOpacity>
           <TouchableOpacity style={styles.main__item}>
-            <Image style={styles.item__img}source={require('../assets/magma.jpeg')}></Image>
-            <Text style={styles.item__musicName}>Magma</Text>
-            <Text style={styles.item__musicCreator}>Gojira</Text>
-          </TouchableOpacity>
-          <TouchableOpacity style={styles.main__item}>
-            <Image style={styles.item__img}source={require('../assets/magma.jpeg')}></Image>
-            <Text style={styles.item__musicName}>Magma</Text>
-            <Text style={styles.item__musicCreator}>Gojira</Text>
-          </TouchableOpacity>
-          <TouchableOpacity style={styles.main__item}>
-            <Image style={styles.item__img}source={require('../assets/magma.jpeg')}></Image>
-            <Text style={styles.item__musicName}>Magma</Text>
-            <Text style={styles.item__musicCreator}>Gojira</Text>
+            <Image style={styles.item__img}source={require('../assets/think.jpeg')}></Image>
+            <Text style={styles.item__musicName}>I hope that you think of me</Text>
+            <Text style={styles.item__musicCreator}>Pity party</Text>
           </TouchableOpacity>
         </View>
       </ScrollView>
@@ -95,7 +85,7 @@ const styles = StyleSheet.create({
   main__item: {
     display: "flex",
     flexDirection: 'column',
-    gap: 3,
+    gap: 5,
     padding: 12,
     backgroundColor: "#1F1F1F",
     borderRadius: 8,

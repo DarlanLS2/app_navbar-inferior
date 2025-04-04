@@ -2,7 +2,7 @@ import * as React from 'react';
 import { ScrollView ,Image ,Text, View, StyleSheet, TextInput, TouchableOpacity } from 'react-native';
 import Icon from 'react-native-vector-icons/FontAwesome';
 
-export default function Alerta() {
+export default function Playlist() {
   return (
     <View style={styles.body}>
       <ScrollView>
@@ -16,10 +16,10 @@ export default function Alerta() {
           <View style={styles.main__musicList}>
             <View style={styles.musicList__top}>
               <View style={styles.simpleBox}>
-                <Text style={styles.top__text}>Titulo</Text>
+                <Text style={styles.top__text}>Title</Text>
               </View>
               <View style={styles.simpleBox}>
-                <Text style={styles.top__text}>Álbum</Text>
+                <Text style={styles.top__text}>Creator</Text>
               </View>
             </View>
             <View style={styles.musicList__content}>
@@ -29,91 +29,100 @@ export default function Alerta() {
                   <Text style={styles.item__title}>Magma</Text>
                 </View>
                 <View style={styles.simpleBox}>
-                  <Text style={styles.item__album}>Magma</Text>
+                  <Text style={styles.item__creator}>Gojira</Text>
                 </View>
               </TouchableOpacity>
               <TouchableOpacity style={styles.musicList__item}>
                 <View style={styles.simpleBox}>
-                  <Image style={styles.item__img}source={require('../assets/magma.jpeg')}/>
-                  <Text style={styles.item__title}>Magma</Text>
+                  <Image style={styles.item__img}source={require('../assets/hell.jpeg')}/>
+                  <Text style={styles.item__title}>Hell N black</Text>
                 </View>
                 <View style={styles.simpleBox}>
-                  <Text style={styles.item__album}>Magma</Text>
-                </View>
-              </TouchableOpacity>
-              <TouchableOpacity style={styles.musicList__item}>
-                <View style={styles.simpleBox}>
-                  <Image style={styles.item__img}source={require('../assets/magma.jpeg')}/>
-                  <Text style={styles.item__title}>Magma</Text>
-                </View>
-                <View style={styles.simpleBox}>
-                  <Text style={styles.item__album}>Magma</Text>
+                  <Text style={styles.item__creator}>Bakar</Text>
                 </View>
               </TouchableOpacity>
               <TouchableOpacity style={styles.musicList__item}>
                 <View style={styles.simpleBox}>
-                  <Image style={styles.item__img}source={require('../assets/magma.jpeg')}/>
-                  <Text style={styles.item__title}>Magma</Text>
+                  <Image style={styles.item__img}source={require('../assets/lady.jpeg')}/>
+                  <Text style={styles.item__title}>Lady love</Text>
                 </View>
                 <View style={styles.simpleBox}>
-                  <Text style={styles.item__album}>Magma</Text>
-                </View>
-              </TouchableOpacity>
-              <TouchableOpacity style={styles.musicList__item}>
-                <View style={styles.simpleBox}>
-                  <Image style={styles.item__img}source={require('../assets/magma.jpeg')}/>
-                  <Text style={styles.item__title}>Magma</Text>
-                </View>
-                <View style={styles.simpleBox}>
-                  <Text style={styles.item__album}>Magma</Text>
+                  <Text style={styles.item__creator}>Oden & Fatzo</Text>
                 </View>
               </TouchableOpacity>
               <TouchableOpacity style={styles.musicList__item}>
                 <View style={styles.simpleBox}>
-                  <Image style={styles.item__img}source={require('../assets/magma.jpeg')}/>
-                  <Text style={styles.item__title}>Magma</Text>
+                  <Image style={styles.item__img}source={require('../assets/devil.jpeg')}/>
+                  <Text style={styles.item__title}>Devil's work</Text>
                 </View>
                 <View style={styles.simpleBox}>
-                  <Text style={styles.item__album}>Magma</Text>
-                </View>
-              </TouchableOpacity>
-              <TouchableOpacity style={styles.musicList__item}>
-                <View style={styles.simpleBox}>
-                  <Image style={styles.item__img}source={require('../assets/magma.jpeg')}/>
-                  <Text style={styles.item__title}>Magma</Text>
-                </View>
-                <View style={styles.simpleBox}>
-                  <Text style={styles.item__album}>Magma</Text>
+                  <Text style={styles.item__creator}>Freddie Dredd</Text>
                 </View>
               </TouchableOpacity>
               <TouchableOpacity style={styles.musicList__item}>
                 <View style={styles.simpleBox}>
-                  <Image style={styles.item__img}source={require('../assets/magma.jpeg')}/>
-                  <Text style={styles.item__title}>Magma</Text>
+                  <Image style={styles.item__img}source={require('../assets/uuuu.jpeg')}/>
+                  <Text style={styles.item__title}>uuuu</Text>
                 </View>
                 <View style={styles.simpleBox}>
-                  <Text style={styles.item__album}>Magma</Text>
+                  <Text style={styles.item__creator}>Steve Lacy</Text>
                 </View>
               </TouchableOpacity>
               <TouchableOpacity style={styles.musicList__item}>
                 <View style={styles.simpleBox}>
-                  <Image style={styles.item__img}source={require('../assets/magma.jpeg')}/>
-                  <Text style={styles.item__title}>Magma</Text>
+                  <Image style={styles.item__img}source={require('../assets/hail.jpeg')}/>
+                  <Text style={styles.item__title}>Hail to the king</Text>
                 </View>
                 <View style={styles.simpleBox}>
-                  <Text style={styles.item__album}>Magma</Text>
+                  <Text style={styles.item__creator}>Avenged Sevenfold</Text>
+                </View>
+              </TouchableOpacity>
+              <TouchableOpacity style={styles.musicList__item}>
+                <View style={styles.simpleBox}>
+                  <Image style={styles.item__img}source={require('../assets/sugar.jpeg')}/>
+                  <Text style={styles.item__title}>Sugar</Text>
+                </View>
+                <View style={styles.simpleBox}>
+                  <Text style={styles.item__creator}>Men i trust</Text>
+                </View>
+              </TouchableOpacity>
+              <TouchableOpacity style={styles.musicList__item}>
+                <View style={styles.simpleBox}>
+                  <Image style={styles.item__img}source={require('../assets/assumptions.jpeg')}/>
+                  <Text style={styles.item__title}>Assumptions</Text>
+                </View>
+                <View style={styles.simpleBox}>
+                  <Text style={styles.item__creator}>Sam Gellaitry</Text>
+                </View>
+              </TouchableOpacity>
+              <TouchableOpacity style={styles.musicList__item}>
+                <View style={styles.simpleBox}>
+                  <Image style={styles.item__img}source={require('../assets/seed.jpeg')}/>
+                  <Text style={styles.item__title}>Seed of a Seed</Text>
+                </View>
+                <View style={styles.simpleBox}>
+                  <Text style={styles.item__creator}>Haley Heyndrerickx</Text>
+                </View>
+              </TouchableOpacity>
+              <TouchableOpacity style={styles.musicList__item}>
+                <View style={styles.simpleBox}>
+                  <Image style={styles.item__img}source={require('../assets/japan.jpeg')}/>
+                  <Text style={styles.item__title}>Japan</Text>
+                </View>
+                <View style={styles.simpleBox}>
+                  <Text style={styles.item__creator}>Yot club</Text>
+                </View>
+              </TouchableOpacity>
+              <TouchableOpacity style={styles.musicList__item}>
+                <View style={styles.simpleBox}>
+                  <Image style={styles.item__img}source={require('../assets/loretta.jpeg')}/>
+                  <Text style={styles.item__title}>Loretta</Text>
+                </View>
+                <View style={styles.simpleBox}>
+                  <Text style={styles.item__creator}>Ginger Root</Text>
                 </View>
               </TouchableOpacity>
             </View>
-              <TouchableOpacity style={styles.musicList__item}>
-                <View style={styles.simpleBox}>
-                  <Image style={styles.item__img}source={require('../assets/magma.jpeg')}/>
-                  <Text style={styles.item__title}>Magma</Text>
-                </View>
-                <View style={styles.simpleBox}>
-                  <Text style={styles.item__album}>Magma</Text>
-                </View>
-              </TouchableOpacity>
           </View>
         </View>
 
@@ -156,7 +165,6 @@ const styles = StyleSheet.create({
   main__musicList: {
     display: "flex",
     gap: 10,
-    // backgroundColor: "#4f4f4f",
     width: "100%",
     padding: 10,
   },
@@ -194,7 +202,7 @@ const styles = StyleSheet.create({
   item__title: {
     color: "#FFFFFF"
   },
-  item__album: {
+  item__creator: {
     color: "#8C8C8C"
   },
 
