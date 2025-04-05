@@ -7,4 +7,4 @@
 ![tela Playlis](./assets/previewPlaylist.jpeg)
 
 ### Profile
-![tela Playlis](./assets/previewProfile.jpeg.jpeg)
+![tela Profile](./assets/previewProfile.jpeg)
