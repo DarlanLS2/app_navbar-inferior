@@ -1,4 +1,4 @@
-# App com barra de navegação na parte inferior
+# App com exemplo de uso do expo navigation bar
 
 ### Home
 <img src="./assets/previewHome.jpeg" alt="tela Home" width="300">
