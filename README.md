@@ -1,5 +1,18 @@
-# App com exemplo de uso do expo navigation bar
+# expo navbar example
+Exemplo de utilização do expo navbar
 
+## Requisitos:
+- Android Studio
+- npm
+
+
+## Como rodar:
+1. Clone o repositorio
+2. Abra a pasta do repositorio
+3. npm install
+4. npm run android
+
+## Previews: 
 ### Home
 <img src="./assets/previewHome.jpeg" alt="tela Home" width="300">
 
