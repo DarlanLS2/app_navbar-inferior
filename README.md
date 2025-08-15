@@ -1,10 +1,10 @@
 # App com barra de navegação na parte inferior
 
 ### Home
-![tela Home](./assets/previewHome.jpeg)
+<img src="./assets/previewHome.jpeg" alt="tela Home" width="300">
 
 ### Playlist
-![tela Playlis](./assets/previewPlaylist.jpeg)
+<img src="./assets/previewPlaylist.jpeg" alt="tela Playlist" width="300">
 
 ### Profile
-![tela Profile](./assets/previewProfile.jpeg)
+<img src="./assets/previewProfile.jpeg" alt="tela Profile" width="300">
